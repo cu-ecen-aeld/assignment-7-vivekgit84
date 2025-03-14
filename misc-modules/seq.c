@@ -11,7 +11,7 @@
 #include <linux/seq_file.h>
 #include <linux/slab.h>
 
-#include "proc_ops_version.h"
+#include "../include/proc_ops_version.h"
 
 MODULE_AUTHOR("Jonathan Corbet");
 MODULE_LICENSE("Dual BSD/GPL");
