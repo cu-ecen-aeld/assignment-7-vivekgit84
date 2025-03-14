@@ -31,8 +31,8 @@
 #include <linux/uaccess.h>	/* copy_*_user */
 
 #include "scull.h"		/* local definitions */
-#include "access_ok_version.h"
-#include "proc_ops_version.h"
+#include "../include/access_ok_version.h"
+#include "../include/proc_ops_version.h"
 
 /*
  * Our parameters which can be set at load time.

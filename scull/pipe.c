@@ -31,7 +31,7 @@
 #include <linux/sched/signal.h>
 #include <linux/seq_file.h>
 
-#include "proc_ops_version.h"
+#include "../include/proc_ops_version.h"
 
 #include "scull.h"		/* local definitions */
 
