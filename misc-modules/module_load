@@ -23,7 +23,7 @@ fi
 
 echo "Load our module, exit on failure"
 #insmod ./$module.ko $* || exit 1
-insmod /lib/modules/${kernel-version}/extra/$module.ko $* || exit 1
+insmod /lib/modules/5.15.178-yocto-standard/extra/$module.ko $* || exit 1
 echo "Get the major number (allocated with allocate_chrdev_region) from /proc/devices"
 major=$(awk "\$2==\"$module\" {print \$1}" /proc/devices)
 if [ ! -z ${major} ]; then
